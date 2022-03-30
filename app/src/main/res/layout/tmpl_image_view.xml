@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:contentDescription="图片"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/et_image_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="3dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:hint="图片描述信息"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#F0E87345"
+        android:textSize="12sp"
+        android:autofillHints="在这里描述图片背景" />
+
+    <ImageButton
+        android:id="@+id/btn_remove"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:maxHeight="40dp"
+        android:maxWidth="40dp"
+        android:src="@drawable/ic_baseline_highlight_off_24"
+        android:visibility="gone"
+        android:contentDescription="删除图片" />
+
+    <ImageButton
+        android:id="@+id/btn_affix"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:maxHeight="40dp"
+        android:maxWidth="40dp"
+        android:src="@drawable/ic_baseline_add_circle_outline_24"
+        android:visibility="gone"
+        android:contentDescription="附加文本" />
+
+    <ImageButton
+        android:id="@+id/btn_cut_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:maxHeight="40dp"
+        android:maxWidth="40dp"
+        android:src="@drawable/ic_baseline_crop_24"
+        android:visibility="gone"
+        android:contentDescription="图片剪切" />
+</RelativeLayout>

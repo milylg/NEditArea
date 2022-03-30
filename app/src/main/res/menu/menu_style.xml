@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bold_style"
+        android:title="加粗"/>
+
+    <item
+        android:id="@+id/font_size_style"
+        android:title="标题"/>
+
+    <item
+        android:id="@+id/font_color_style"
+        android:title="颜色"/>
+
+    <item android:id="@+id/quote_block_style"
+        android:title="引用"/>
+
+    <item android:id="@+id/image_get_way"
+        android:title="图片"/>
+</menu>

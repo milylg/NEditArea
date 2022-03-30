@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="config">
+        <attr name="edit_status" format="string"/>
+        <attr name="title_hint" format="string"/>
+    </declare-styleable>
+</resources>

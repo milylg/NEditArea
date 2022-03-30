@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="5.0dp">
+        <shape>
+            <solid android:color="@color/blue" />
+            <size android:width="5dp" />
+            <corners
+                android:topLeftRadius="5dp"
+                android:bottomLeftRadius="5dp"/>
+        </shape>
+    </item>
+    <!-- draw another block to cut-off the left and right bars -->
+    <item android:left="5.0dp">
+        <shape>
+            <!--color不能使用透明度-->
+            <solid android:color="@color/light_blue"/>
+            <corners
+                android:topRightRadius="5dp"
+                android:bottomRightRadius="5dp"/>
+        </shape>
+    </item>
+</layer-list>

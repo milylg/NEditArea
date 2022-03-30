@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#F06292</color>
+    <color name="purple_700">#E57373</color>
+    <color name="teal_200">#4DB6AC</color>
+    <color name="teal_700">#AED581</color>
+    <color name="black">#DCE775</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--用于drawable.xml-->
+    <item name="blue" type="color">#E57373</item>
+    <item name="light_blue" type="color">#FCD7D7</item>
+</resources>
